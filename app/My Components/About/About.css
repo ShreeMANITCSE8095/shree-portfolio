@@ -1,0 +1,31 @@
+.about {
+    position: relative;
+    display: inline-block; 
+    
+}
+
+.about::after {
+    content: '';
+    position: absolute;
+    border-radius: 8px;
+    left: 0;
+    bottom: -5px; /* Adjust for spacing */
+    width: 0;
+    height: 4px;
+    background-color: aqua;
+    animation: underline 2s ease-in-out forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+strong{
+    color: aqua;
+}
+@keyframes underline {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+       
+    }
+}
