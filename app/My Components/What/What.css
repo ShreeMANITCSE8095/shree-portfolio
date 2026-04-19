@@ -1,0 +1,11 @@
+.what_ani {
+    opacity: 0;
+    animation: what_ani 1s ease-in-out 1.8s forwards;
+    
+}
+
+@keyframes what_ani {
+    to {
+        opacity: 1;
+    }
+}
