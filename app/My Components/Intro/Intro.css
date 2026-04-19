@@ -1,0 +1,23 @@
+.intro{
+    animation: intro_ani 1s ease-in-out 0S forwards;
+}
+.intro_ani2{
+    animation: intro_ani2 1s ease-in-out 1s forwards;
+    transform: translateX(100vw);
+}
+@keyframes intro_ani {
+    0%{
+        transform: translateY(-100vw);
+    }
+    
+    
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes intro_ani2{
+    
+    100%{
+        transform: translateX(0);
+    }
+}
