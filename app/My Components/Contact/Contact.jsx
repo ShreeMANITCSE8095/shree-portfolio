@@ -49,7 +49,7 @@ const Contact = () => {
                         onLetterAnimationComplete={handleAnimationComplete}
                     />
                 </div>
-                <Link href="<Link href="mailto:shreepandit2015@gmail.com">">
+                <Link href="mailto:shreepandit2015@gmail.com">
                     <div className="">
                         <SplitText
                             text="Contact Me"
