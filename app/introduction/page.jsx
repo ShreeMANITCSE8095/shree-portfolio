@@ -75,26 +75,26 @@ const portfolio = {
   dsaStats: [
     {
       platform: "LeetCode",
-      questions: 700,
+      questions: 709,
       maxRating: 2120,
       profileUrl: "https://leetcode.com/u/ShreePandit/",
     },
     {
       platform: "CodeForces",
-      questions: 100,
+      questions: 129,
       maxRating: 1550,
       profileUrl: "https://codeforces.com/profile/ShreePandit",
     },
     {
       platform: "CodeChef",
-      questions: 150,
+      questions: 163,
       maxRating: 1815,
       profileUrl: "https://www.codechef.com/users/shree_pandit",
     },
   ],
   stats: [
-    { number: 950, title: "Total Problems Solved" },
-    { number: 700, title: "LeetCode Solved" },
+    { number: 1000, title: "Total Problems Solved" },
+    { number: 100, title: "Programming Contests Attended" },
     { number: 1000, title: "Peak Concurrent Users Managed" },
   ],
   socialLinks: {
