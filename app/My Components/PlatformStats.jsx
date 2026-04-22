@@ -38,19 +38,19 @@ const PlatformStats = ({ portfolioName = 'Portfolio', stats = [] }) => {
   const defaultStats = [
     {
       platform: 'leetcode',
-      questions: 700,
+      questions: 709,
       maxRating: 2120,
       profileUrl: 'https://leetcode.com/',
     },
     {
       platform: 'codechef',
-      questions: 150,
+      questions: 163,
       maxRating: 1815,
       profileUrl: 'https://www.codechef.com/',
     },
     {
       platform: 'codeforces',
-      questions: 100,
+      questions: 129,
       maxRating: 1550,
       profileUrl: 'https://codeforces.com/',
     },
