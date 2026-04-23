@@ -3,6 +3,7 @@ import React from 'react'
 import Shuffle from './Shuffle'
 import CountUp from './CountUp/CountUp'
 import { SiLeetcode, SiCodechef, SiCodeforces } from 'react-icons/si'
+console.log(SiCodechef, SiCodeforces) // check if undefined
 import { ExternalLink } from 'lucide-react'
 
 const PlatformStats = ({ portfolioName = 'Portfolio', stats = [] }) => {
