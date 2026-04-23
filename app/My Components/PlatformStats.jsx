@@ -2,36 +2,27 @@
 import React from 'react'
 import Shuffle from './Shuffle'
 import CountUp from './CountUp/CountUp'
-import { SiLeetcode, SiCodechef, SiCodeforces, SiGeeksforgeeks, SiHackerrank } from 'react-icons/si'
+import { SiLeetcode, SiCodechef, SiCodeforces } from 'react-icons/si'
 import { ExternalLink } from 'lucide-react'
 
 const PlatformStats = ({ portfolioName = 'Portfolio', stats = [] }) => {
-  const platformConfig = {
-    leetcode: {
-      icon: <SiLeetcode className="w-8 h-8" />,
-      color: 'bg-orange-500',
-      name: 'LeetCode',
-      baseUrl: 'https://leetcode.com/',
-    },
-    codechef: {
-      icon: <SiCodechef className="w-8 h-8" />,
-      color: 'bg-[#5B4638]',
-      name: 'CodeChef',
-      baseUrl: 'https://www.codechef.com/',
-    },
-    codeforces: {
-      icon: <SiCodeforces className="w-8 h-8" />,
-      color: 'bg-[#1F8ACB]',
-      name: 'CodeForces',
-      baseUrl: 'https://codeforces.com/',
-    },
-    geeksforgeeks: {
-      icon: <SiGeeksforgeeks className="w-8 h-8" />,
-      color: 'bg-[#2F8D46]',
-      name: 'GeeksforGeeks',
-      baseUrl: 'https://www.geeksforgeeks.org/',
-    },
-  }
+const platformConfig = {
+  leetcode: {
+    icon: <SiLeetcode className="w-8 h-8" />,
+    color: 'bg-orange-500',
+    name: 'LeetCode',
+  },
+  codechef: {
+    icon: <SiCodechef className="w-8 h-8" />,
+    color: 'bg-[#5B4638]',
+    name: 'CodeChef',
+  },
+  codeforces: {
+    icon: <SiCodeforces className="w-8 h-8" />,
+    color: 'bg-[#1F8ACB]',
+    name: 'CodeForces',
+  },
+}
 
   // Default stats if none provided
   // Database structure: { platform: 'leetcode', questions: 150, rating: 1850, profileUrl: 'https://leetcode.com/username' }
