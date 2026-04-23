@@ -8,7 +8,7 @@ const About = () => {
 
       <div className="mt-7 text-xl text-white">
         <div className="mb-6">
-          I am a Computer Science and Engineering sophomore (Class of 2028) at Maulana Azad National Institute of Technology (MANIT), Bhopal, with a deep passion for algorithmic problem-solving and robust system architecture. As an active competitive programmer, I hold a Knight rating on LeetCode (2120), a 4-Star rating on CodeChef, and a Specialist rank on CodeForces, having solved over 900 Data Structures and Algorithms challenges across various platforms.
+          I am a Computer Science and Engineering sophomore (Class of 2028) at Maulana Azad National Institute of Technology (MANIT), Bhopal, with a deep passion for algorithmic problem-solving and robust system architecture. As an active competitive programmer, I hold a Knight rating on LeetCode (2120), a 4-Star rating on CodeChef, and a Specialist rank on CodeForces, having solved over 1000 Data Structures and Algorithms challenges across various platforms.
         </div>
 
         <div className="mb-6">
@@ -23,7 +23,7 @@ const About = () => {
           <strong>Technical Skills and Interests:</strong>
           <ul className="list-disc pl-6 mt-2 space-y-2 text-[#f3f3f398]">
             <li>Programming Languages: C, C++, JavaScript</li>
-            <li>Frameworks & Libraries: ReactJS, NodeJS</li>
+            <li>Frameworks & Libraries: ReactJS, NodeJS, NextJS</li>
             <li>Databases: MySQL, PostgreSQL, PHP, MongoDB</li>
             <li>Tools & Platform: VS Code, Git, GitHub, LaTeX</li>
             <li>Core CS Coursework: Data Structures, OOP, DBMS, Algorithm Design & Analysis, Computer System & Organization</li>
