@@ -53,7 +53,7 @@ const portfolio = {
       ],
       techStack: ["PHP", "MySQL", "Vanilla JavaScript"],
       githubUrl: "https://github.com/ShreeMANITCSE8095/NITBFreshers-Portal",
-      liveUrl: "",
+      liveUrl: "https://nitbfreshers.42web.io/",
       imageUrl: "/freshers_portal.jpeg",
     },
     {
@@ -68,14 +68,14 @@ const portfolio = {
       ],
       techStack: ["PostgreSQL", "Express.js", "React.js", "Node.js", "Tailwind CSS"],
       githubUrl: "https://github.com/ShreeMANITCSE8095/peer-doubt-platform",
-      liveUrl: "",
+      liveUrl: "https://peer-doubt-platform-frontend.vercel.app/",
       imageUrl: "/peer_doubt.png",
     },
   ],
   dsaStats: [
     {
       platform: "LeetCode",
-      questions: 709,
+      questions: 710,
       maxRating: 2120,
       profileUrl: "https://leetcode.com/u/ShreePandit/",
     },
