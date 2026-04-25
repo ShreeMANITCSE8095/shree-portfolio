@@ -75,13 +75,13 @@ const portfolio = {
   dsaStats: [
     {
       platform: "LeetCode",
-      questions: 710,
+      questions: 713,
       maxRating: 2120,
       profileUrl: "https://leetcode.com/u/ShreePandit/",
     },
     {
       platform: "CodeForces",
-      questions: 129,
+      questions: 131,
       maxRating: 1550,
       profileUrl: "https://codeforces.com/profile/ShreePandit",
     },
