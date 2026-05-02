@@ -35,9 +35,10 @@ const portfolio = {
     "HTML5",
     "Tailwind CSS",
     "JavaScript",
-    "ReactJS",
-    "NodeJS",
+    "React.js",
+    "Node.js",
     "MongoDB",
+    "Next.js"
     "MySQL",
     "PostgreSQL",
     "PHP",
@@ -51,7 +52,7 @@ const portfolio = {
         "Enabled onboarding of 1000+ students, supporting high concurrent usage during peak academic periods.",
         "Implemented secure authentication with token-based validation and structured resource categorization for fast access.",
       ],
-      techStack: ["PHP", "MySQL", "Vanilla JavaScript"],
+      techStack: ["PHP", "MySQL", "Vanilla.js"],
       githubUrl: "https://github.com/ShreeMANITCSE8095/NITBFreshers-Portal",
       liveUrl: "https://nitbfreshers.42web.io/",
       imageUrl: "/freshers_portal.jpeg",
@@ -75,19 +76,19 @@ const portfolio = {
   dsaStats: [
     {
       platform: "LeetCode",
-      questions: 713,
+      questions: 718,
       maxRating: 2120,
       profileUrl: "https://leetcode.com/u/ShreePandit/",
     },
     {
       platform: "CodeForces",
-      questions: 131,
+      questions: 139,
       maxRating: 1550,
       profileUrl: "https://codeforces.com/profile/ShreePandit",
     },
     {
       platform: "CodeChef",
-      questions: 163,
+      questions: 168,
       maxRating: 1815,
       profileUrl: "https://www.codechef.com/users/shree_pandit",
     },
@@ -260,7 +261,7 @@ const page = () => {
             {stats.length > 0 && (
               <div className='flex flex-col md:flex-row justify-evenly items-center py-[5vh] md:gap-0 gap-2'>
                 <CircularText
-                  text=" LETS TALK * LETS TALK * LETS TALK *"
+                  text=" LETS CONNECT * LETS CONNECT * LETS CONNECT *"
                   onHover="speedUp"
                   spinDuration={20}
                   className="font-normal text-s m-0"
