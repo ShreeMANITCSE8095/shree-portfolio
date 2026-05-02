@@ -11,13 +11,13 @@ export const DivOrigami = () => {
         <LogoRolodex
           items={[
             <LogoItem key={1} className="bg-orange-500 text-white">
-              <SiLeetCode />
+              <SiLeetcode />
             </LogoItem>,
             <LogoItem key={2} className="bg-[#5B4638] text-white">
-              <SiCodeChef />
+              <SiCodechef />
             </LogoItem>,
             <LogoItem key={3} className="bg-[#1F8ACB] text-white">
-              <SiCodeForces />
+              <SiCodeforces />
             </LogoItem>,
             <LogoItem key={5} className="bg-[#2F8D46] text-white">
               <SiGeeksforGeeks />
