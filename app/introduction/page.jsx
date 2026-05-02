@@ -261,7 +261,7 @@ const page = () => {
             {stats.length > 0 && (
               <div className='flex flex-col md:flex-row justify-evenly items-center py-[5vh] md:gap-0 gap-2'>
                 <CircularText
-                  text=" LETS CONNECT * LETS CONNECT * LETS CONNECT *"
+                  text=" LETS CONNECT * LETS TALK * LETS GROW *"
                   onHover="speedUp"
                   spinDuration={20}
                   className="font-normal text-s m-0"
