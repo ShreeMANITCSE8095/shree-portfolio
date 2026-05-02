@@ -23,7 +23,7 @@ const About = () => {
           <strong>Technical Skills and Interests:</strong>
           <ul className="list-disc pl-6 mt-2 space-y-2 text-[#f3f3f398]">
             <li>Programming Languages: C, C++, JavaScript</li>
-            <li>Frameworks & Libraries: ReactJS, NodeJS, NextJS</li>
+            <li>Frameworks & Libraries: React.js, Node.js, Next.js</li>
             <li>Databases: MySQL, PostgreSQL, PHP, MongoDB</li>
             <li>Tools & Platform: VS Code, Git, GitHub, LaTeX</li>
             <li>Core CS Coursework: Data Structures, OOP, DBMS, Algorithm Design & Analysis, Computer System & Organization</li>
