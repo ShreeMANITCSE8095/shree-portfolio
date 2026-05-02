@@ -9,22 +9,21 @@ import { ExternalLink } from 'lucide-react'
 const PlatformStats = ({ portfolioName = 'Portfolio', stats = [] }) => {
 const platformConfig = {
   leetcode: {
-    icon: <SiLeetcode className="w-8 h-8" />,
+    icon: <img src="https://leetcode.com/favicon.ico" className="w-8 h-8" alt="LeetCode" />,
     color: 'bg-orange-500',
     name: 'LeetCode',
   },
   codechef: {
-    icon: <SiCodechef className="w-8 h-8" />,
+    icon: <img src="https://www.codechef.com/favicon.ico" className="w-8 h-8" alt="CodeChef" />,
     color: 'bg-[#5B4638]',
     name: 'CodeChef',
   },
   codeforces: {
-    icon: <SiCodeforces className="w-8 h-8" />,
+    icon: <img src="https://codeforces.com/favicon.ico" className="w-8 h-8" alt="CodeForces" />,
     color: 'bg-[#1F8ACB]',
     name: 'CodeForces',
   },
 }
-
   // Default stats if none provided
   // Database structure: { platform: 'leetcode', questions: 150, rating: 1850, profileUrl: 'https://leetcode.com/username' }
   const defaultStats = [
