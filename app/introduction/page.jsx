@@ -38,7 +38,7 @@ const portfolio = {
     "React.js",
     "Node.js",
     "MongoDB",
-    "Next.js"
+    "Next.js",
     "MySQL",
     "PostgreSQL",
     "PHP",
